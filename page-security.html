@@ -1,0 +1,16 @@
+<body oncontextmenu='return false;'></body>
+
+<script async='async' type='text/javascript'>
+//<![CDATA[
+  
+   document.onkeydown = function(e) {
+    if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) {}
+    return false;
+   };
+   
+   document.oncontextmenu = document.body.oncontextmenu = function(e) {
+    return false;
+   };
+   
+//]]>
+</script>
